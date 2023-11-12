@@ -3,7 +3,7 @@ import { FC } from "react";
 
 const Home: FC = () => {
   return (
-    <div className="w-[1440px] mx-auto">
+    <div className="w-[1799px] mx-auto">
       <div id="Header" className="flex justify-between my-6 mx-5 items-center">
         <a href="/" className="header__logo">
           <img src="@img/logo.svg" alt="" />
@@ -46,6 +46,12 @@ const Home: FC = () => {
           <button className="text-white rounded-full border-2 pt-[22px] pb-[22px] pr-[55px] pl-[22px] border-white">
             Contact Us
           </button>
+        </div>
+      </div>
+      <div id="Home" className="my-[70px]">
+        <div className="flex gap-[15px] rounded-full items-center border-[1px] h-[66px] w-[300px] justify-center">
+          <img src="stack-development-icon.svg" alt="Icon" />
+          <span>2023 stack Development</span>
         </div>
       </div>
     </div>
